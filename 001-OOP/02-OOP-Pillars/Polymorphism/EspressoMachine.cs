@@ -14,6 +14,7 @@ namespace _00P._02_OOP_Pillars.Polymorphism
 
 		internal void PrepareCoffee()
 		{
+			Test();
 			HeatWater();
 			GrindGrains();
 		}
