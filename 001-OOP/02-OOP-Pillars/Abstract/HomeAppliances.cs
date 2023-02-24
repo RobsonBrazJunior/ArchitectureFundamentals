@@ -13,5 +13,10 @@
 
 		internal abstract void TurnOn();
 		internal abstract void TurnOff();
+
+		internal virtual void Test()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
